@@ -20,37 +20,25 @@ export K8SHA_KA_INTF=ens18
 #######################################
 
 # master keepalived virtual ip address
-export K8SHA_IPVIRTUAL=172.26.133.20
+export K8SHA_IPVIRTUAL=10.85.85.39
 
 # master01 ip address
-export K8SHA_IP1=172.26.133.21
+export K8SHA_IP1=10.85.85.40
 
 # master02 ip address
-export K8SHA_IP2=172.26.133.22
+export K8SHA_IP2=10.85.85.41
 
 # master03 ip address
-export K8SHA_IP3=172.26.133.23
-
-# master04 ip address
-export K8SHA_IP4=172.26.133.24
-
-# master05 ip address
-export K8SHA_IP5=172.26.133.25
+export K8SHA_IP3=10.85.85.42
 
 # master01 hostname
-export K8SHA_HOSTNAME1=hb-master01
+export K8SHA_HOSTNAME1=tst-k8s-mst01
 
 # master02 hostname
-export K8SHA_HOSTNAME2=hb-master02
+export K8SHA_HOSTNAME2=tst-k8s-mst02
 
 # master03 hostname
-export K8SHA_HOSTNAME3=hb-master03
-
-# master04 hostname
-export K8SHA_HOSTNAME4=hb-master04
-
-# master04 hostname
-export K8SHA_HOSTNAME5=hb-master05
+export K8SHA_HOSTNAME3=tst-k8s-mst03
 
 # keepalived auth_pass config, all masters must be same
 export K8SHA_KA_AUTH=56cf8dd754c90194d1600c483e10abfr
