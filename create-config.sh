@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # local machine ip address
-export K8SHA_IPLOCAL=10.85.85.40
+export K8SHA_IPLOCAL=10.85.85.71
 
 # local machine etcd name, options: etcd1, etcd2, etcd3, etcd4, etcd5
 export K8SHA_ETCDNAME=etcd1
@@ -20,25 +20,25 @@ export K8SHA_KA_INTF=ens18
 #######################################
 
 # master keepalived virtual ip address
-export K8SHA_IPVIRTUAL=10.85.85.39
+export K8SHA_IPVIRTUAL=10.85.85.70
 
 # master01 ip address
-export K8SHA_IP1=10.85.85.40
+export K8SHA_IP1=10.85.85.71
 
 # master02 ip address
-export K8SHA_IP2=10.85.85.41
+export K8SHA_IP2=10.85.85.72
 
 # master03 ip address
-export K8SHA_IP3=10.85.85.42
+export K8SHA_IP3=10.85.85.73
 
 # master01 hostname
-export K8SHA_HOSTNAME1=tst-k8s-mst01
+export K8SHA_HOSTNAME1=dev-k8s-mst01
 
 # master02 hostname
-export K8SHA_HOSTNAME2=tst-k8s-mst02
+export K8SHA_HOSTNAME2=dev-k8s-mst02
 
 # master03 hostname
-export K8SHA_HOSTNAME3=tst-k8s-mst03
+export K8SHA_HOSTNAME3=dev-k8s-mst03
 
 # keepalived auth_pass config, all masters must be same
 export K8SHA_KA_AUTH=56cf8dd754c90194d1600c483e10abfr
@@ -47,7 +47,7 @@ export K8SHA_KA_AUTH=56cf8dd754c90194d1600c483e10abfr
 export ETCD_TOKEN=9489bf68bdfe1b9ae037d6fd9e7efefd
 
 # kubernetes cluster token, you can use 'kubeadm token generate' to get a new one
-export K8SHA_TOKEN=t48fky.x8nc570ect57k95m
+export K8SHA_TOKEN=0fjgx7.01mh88if6aakm1ew
 
 # kubernetes CIDR pod subnet, if CIDR pod subnet is "10.244.0.0/16" please set to "10.244.0.0\\/16"
 export K8SHA_CIDR=10.244.0.0\\/16

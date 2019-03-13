@@ -1,5 +1,5 @@
 apiVersion: kubeadm.k8s.io/v1beta1
-kind: MasterConfiguration
+kind: ClusterConfiguration
 networking:
   podSubnet: K8SHA_CIDR
 apiServer:
